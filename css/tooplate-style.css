@@ -111,7 +111,7 @@ b, strong {
   display: inline-block;
   vertical-align: top;
   margin-top: 5px;
-  min-width: 260px;
+  min-width:430px;
   position: relative;
 }
 
@@ -464,7 +464,13 @@ b, strong {
 .social-links .uil:hover {
   color: #ffc200;
 }
-
+.project-detail .col-md-6 p {
+  margin: 0px 0px;
+}
+.project-detail h5 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
 @media (min-width: 1270px) {
   .owl-theme .owl-dots {
     position: relative;
